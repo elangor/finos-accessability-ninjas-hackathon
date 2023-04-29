@@ -1,0 +1,441 @@
+
+.design-system-container {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red; /* test */
+}
+
+.design-system-tab-bar {
+    width: 100%;
+    border: 0px solid green; /* test */
+    background-color: var(--background-secondary) !important;
+    color: var(--on-background-secondary);
+}
+
+.design-system-editor-left-nav {
+    min-width: 300px;
+    width: 300px;
+    background-color: var(--background-secondary) !important;
+    color: var(--on-background-secondary);
+    border: 0px solid green; /* test */
+    overflow-y: scroll;
+    margin-left: 0px;
+    visibility: hidden;
+}
+
+.design-system-editor-left-nav-scrollable,
+.design-system-editor-left-nav:hover,
+.design-system-editor-left-nav:focus {
+    visibility: visible;
+}
+
+.design-system-editor-content {
+    display: flex;
+    border: 0px solid blue; /* test */
+	/* gap: 10px;  */
+	/* height: calc(100vh - 112px); */
+    background-color: var(--background-secondary) !important;
+}
+
+.design-system-editor-right-content {
+    flex-grow: 1;
+    padding: 20px;
+    color: var(--on-background);
+    background: var(--background);
+    vertical-align: top;
+    font-family: var(--primaryFont);
+    border: 0px solid red; /* test */
+    /* overflow-y: auto; */
+    overflow-y: scroll;
+    /* visibility: hidden; */
+
+}
+
+.design-system-editor-right-content-scrollable,
+.design-system-editor-right-content:hover,
+.design-system-editor-right-content:focus {
+    /* visibility: visible; */
+}
+
+.darkmode.design-system-editor-right-content {
+    background-color: var(--dm-background) !;
+    color: var(--dm-on-background);
+    min-height: 80vh;
+}
+
+.design-system-editor-right-content .section-header {
+    padding: var(--spacing-2) 0 var(--spacing-1);
+    border-bottom: 1px solid var(--border)
+}
+
+.design-system-editor-right-content.darkmode .section-header {
+    padding: var(--spacing-1);
+    border-bottom: 1px solid var(--dm-border)
+}
+
+.design-system-editor-right-content .section-body {
+    margin-left: 0px;
+}
+
+.form-columns {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.top32 {
+    margin-top: 32px !important;
+}
+
+
+.top24 {
+    margin-top: 24px !important;
+}
+
+.top16 {
+    margin-top: 16px !important;
+}
+
+/*
+.design-system-editor-right-content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--on-button);
+    color: var(--on-background);
+    border-radius: var(--button-radius);
+    text-align: center;
+    padding: var(--spacing-1) var(--button-padding);
+    border: none;
+    position: relative;
+    align-self: start;
+    font: var(--button-font);
+    letter-spacing: var(--button-character-spacing);
+    text-transform: var(--button-transform) !important;
+    cursor: pointer;
+}
+*/
+
+.design-system-editor-right-content .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* not sure that we need this since we haven't brought over the
+     * "row>*" rule, yet
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    */
+}
+
+.design-system-editor-right-content .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.design-system-editor-right-content .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--spacing-2);
+    margin-right: var(--spacing-2);
+}
+
+.inputRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.inputRow .Hex {
+    margin: 8px 0
+}
+
+
+.modal-content input{
+  height: 44px;
+  padding-left: 8px;
+  border-radius: var(--spacing-half);
+  border: 1px solid var(--border);
+  opacity: 1;
+}
+
+/* darkmode Mui Textfield */
+
+.design-system-editor-right-content .darkmode input {
+    background: var(--dm-input) !important;
+    color: var(--dm-on-input);
+    -webkit-text-fill-color: var(--dm-on-input);
+}
+
+.design-system-editor-right-content .darkmode .MuiInputBase-root fieldset.MuiOutlinedInput-notchedOutline {
+    border: 1px solid var(--dm-border)
+}
+
+.design-system-editor-right-content .darkmode label {
+    background: var(--dm-background) !important;
+    color: var(--dm-on-background);
+}
+
+.design-system-editor-right-content .darkmode input:disabled {
+    background: var(--dm-input-disabled) !important;
+    -webkit-text-fill-color: var(--dm-on-input);
+}
+
+/* dark mode dropdown */
+
+.design-system-editor-right-content .darkmode .dropdown-toggle {
+    background: var(--dm-surface) !important;
+    color: var(--dm-on-surface) !important;
+}
+.design-system-editor-right-content .darkmode .dropdown-toggle svg path{
+  fill:  var(--dm-on-surface) !important;
+}
+.darkmode .MuiMenu-list .Mui-selected {
+  color: var(--dm-on-dropdown-focus-bg);
+  background: var(--dm-dropdown-focus-bg);
+}
+
+.design-system-editor-right-content .lightdarkmode-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: var(--radius-2);
+    margin-bottom: 40px;
+}
+
+.design-system-editor-right-content .buttonDemo {
+    display: flex;
+    gap: 24px;
+    margin: 16px 0;
+   flex-wrap: wrap;
+}
+
+.design-system-editor-right-content .theme-colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-1);
+}
+
+.design-system-editor-right-content .color-swatch {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-1);
+    padding: var(--spacing-1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin:  var(--spacing-1) 0;
+    width: 98px;
+    cursor: pointer;
+    position: relative;
+}
+
+.color-swatch::after {
+  position: absolute;
+  top: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
+  left: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
+  right: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
+  bottom: calc(0px - calc(var(--focusBorder) + 2px + var(--animation-focus-distance)));
+  border-radius: calc(var(--spacing-1) + 1.6px);
+  border: var(--focusBorder) solid var(--button);
+  background: transparent !important;
+  opacity: 0;
+  content: '';
+  transition: var(--animation-speed) cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  z-index: 1;
+  pointer-events: none;
+}
+.color-swatch:hover::after {
+  opacity: .5;
+  top: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  left: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  right: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  bottom: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  min-height: calc(var(--button-height) * var(--spacing-1) + var(--border-1) * var(--button-border) * 2px + 4px);
+}
+.color-swatch:focus::after {
+  opacity: 1;
+  top: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  left: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  right: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  bottom: calc(0px - calc(calc(var(--border-1) * var(--button-border)) + 2px));
+  min-height: calc(var(--button-height) * var(--spacing-1) + var(--border-1) * var(--button-border) * 2px + 4px);
+}
+.windowOverlay {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 99;
+}
+.colorPop {
+  position: fixed;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+
+.design-system-editor-right-content .color-block {
+    display: inline-block;
+    font-size: 11px;
+    width: 96px;
+    /* margin-bottom: 24px; changing to use side margins to provide some separation */
+    margin: 0px 5px 24px 5px;
+    vertical-align: top;
+}
+
+.design-system-editor-right-content .Hex {
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--border);
+    border-radius:8px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: rgba(0,0,0,0);
+    margin: 8px 0;
+}
+.design-system-editor-right-content .Hex.button {
+    background: var(--button);
+    color: var(--on-button);
+}
+.design-system-editor-right-content .Hex.icon {
+    background: var(--icon);
+    color: var(--on-icon);
+}
+.design-system-editor-right-content .Hex.accent {
+    background: var(--accent);
+    color: var(--on-accent);
+}
+.design-system-editor-right-content .darkmode .Hex {
+    border: 1px solid var(--dm-border);
+}
+.design-system-editor-right-content .darkmode .Hex.button {
+    background: var(--dm-button);
+    color: var(--dm-on-button);
+}
+.design-system-editor-right-content .darkmode .Hex.icon {
+    background: var(--dm-icon);
+    color: var(--dm-on-icon);
+}
+.design-system-editor-right-content .darkmode .Hex.accent {
+    background: var(--dm-accent);
+    color: var(--dm-on-accent);
+}
+
+.design-system-editor-right-content .caption {
+    font-family: var(--primaryFont);
+    font-weight: var(--fontWeight-3);
+    font-size: calc(var(--baseFont) * .75);
+    line-height: var(--standard-LineHeight);
+    letter-spacing: 0.5%;
+}
+
+.design-system-editor-right-content .text-center {
+    text-align: center!important;
+}
+
+.darkmode.design-system-editor-right-content  {
+    background: var(--dm-background) !important;
+    color: var(--dm-on-background) !important;
+}
+
+.darkmode.design-system-editor-right-content .color-swatch {
+    background: var(--dm-background) !important;
+    color: var(--dm-on-background) !important;
+    border: 1px solid var(--dm-border);
+}
+
+.darkmode.design-system-editor-right-content .color-swatch.white{
+    background: var(--dm-white) !important;
+    color: var(--dm-on-white) !important;
+    border: 1px solid var(--dm-border);
+}
+
+.design-system-editor-right-content .color-box {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-1);
+    padding: var(--spacing-1);
+    cursor: pointer;
+}
+.design-system-editor-right-content .color-box.hotlink {
+    background: var(--hotlink);
+}
+.design-system-editor-right-content .hotlink {
+    color: var(--hotlink);
+}
+.design-system-editor-right-content .black .color-box {
+    background: var(--white);
+}
+.design-system-editor-right-content .black .hotlink {
+    color: var(--white);
+}
+.design-system-editor-right-content .white .color-box {
+    background: var(--black);
+}
+.design-system-editor-right-content .white .hotlink {
+    color: var(--black);
+}
+.design-system-editor-right-content .hotlink.visited {
+    opacity: .7;
+}
+.design-system-editor-right-content .hotlink.active {
+    text-decoration: var(--hotlink-hover-decoration);
+}
+/* dark mode */
+.design-system-editor-right-content .darkmode .color-box.hotlink {
+    background: var(--dm-hotlink);
+}
+.design-system-editor-right-content .darkmode .hotlink {
+    color: var(--dm-hotlink);
+}
+.design-system-editor-right-content .darkmode .black .color-box {
+    background: var(--dm-white);
+}
+.design-system-editor-right-content .darkmode .black .hotlink {
+    color: var(--dm-white);
+}
+.design-system-editor-right-content .darkmode .white .color-box {
+    background: var(--black);
+}
+.design-system-editor-right-content .darkmode .white .hotlink {
+    color: var(--black);
+}
+.design-system-editor-right-content .darkmode .hotlink.visited {
+    opacity: .7;
+}
+
+.design-system-editor-right-content .color-title {
+    margin-top: 4px;
+}
+
+.design-system-editor-right-content .sample {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+    margin: var(--spacing-3) 0;
+}
+.darkmode .black  .MuiList-root {
+  background: transparent
+}
+
+.form-columns label {
+  margin-bottom: var(--spacing-1)
+}

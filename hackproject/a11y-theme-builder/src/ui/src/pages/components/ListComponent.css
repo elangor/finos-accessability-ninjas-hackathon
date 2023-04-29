@@ -1,0 +1,14 @@
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.list-link {
+    color: inherit;
+    text-decoration: none
+}
+
+.list-clickable {
+    cursor: pointer
+}

@@ -1,0 +1,70 @@
+.titleBarDiv {
+    width: 100%;
+    background: var(--primary);
+    color: var(--on-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleBarDiv .MuiSelect-select {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--on-surface);
+}
+
+.titleBarDiv .MuiSelect-icon {
+    fill: var(--on-surface);
+}
+
+.titleBarDiv .MuiOutlinedInput-notchedOutline {
+    border: 1px solid var(--on-primary);
+    opacity: 0.5;
+    background: var(--surface);
+    border-radius: var(--spacing-half);
+    padding: 0 var(--spacing-1);
+    font-size: var(--body1FontSize);
+    font-weight: var(--body1FontWeight);
+}
+
+.titleBarDiv .left-titlebar {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    flex-direction: column;
+}
+
+.titleBarDiv .center-titlebar {
+    display: flex;
+    align-items: left;
+    margin: var(--spacing-1);
+    gap: var(--spacing-2);
+}
+.titleBarDiv .center-titlebar button{
+    align-self: end;
+}
+
+.titleBarDiv .center-titlebar .input-titlebar {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.titleBarDiv .right-titlebar {
+    display: flex;
+    align-items: left;
+    margin: 8px;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.titleBarDiv .label {
+    padding-right: 30px;
+    font-size: var(--label-smallFontSize);
+    font-family: var(--bodyFamily);
+    font-weight: var(--label-smallFontWeight);
+    line-height: var(--label-smallLineHeight);
+    letter-spacing: var(--label-smallCharcterSpacing);
+}

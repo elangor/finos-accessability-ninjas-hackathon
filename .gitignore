@@ -28,3 +28,9 @@ __pycache__
 
 # MSFT Office
 ~$*.*
+hackproject/a11y-theme-builder/package-lock.json
+hackproject/a11y-theme-builder-sdk/package-lock.json
+hackproject/a11y-theme-builder/build/*
+hackproject/a11y-theme-builder/node_modules/*
+hackproject/a11y-theme-builder-sdk/build/*
+hackproject/a11y-theme-builder-sdk/node_modules/*

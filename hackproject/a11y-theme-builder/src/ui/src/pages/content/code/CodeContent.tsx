@@ -96,6 +96,7 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
                         <LeftNavHeader>Code Generators</LeftNavHeader>
                         <LeftNavItem text={"CSS"} value="css" indent={1} selected={showItem} onClick={()=> {setShowItem("css")}} disabled={disabled}/>
                         <LeftNavItem text={"JSON"} value="json" indent={1} selected={showItem} onClick={()=> {setShowItem("json")}} disabled={disabled}/>
+                        <LeftNavItem text={"Mkdocs-CSS"} value="css" indent={1} selected={showItem} onClick={()=> {setShowItem("mkdocs-css")}} disabled={disabled}/>
                 </List>
                 </div>
             </div>
@@ -223,6 +224,59 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
                             <Button variant="contained" onClick={() => navigator.clipboard.writeText("Code goes here")}>Copy</Button>
                             <span style={{paddingLeft: "20px"}}> &nbsp;</span>
                             <Button variant="outlined" onClick={() => saveFile("Code goes here", designSystem.name + "-dyslexic.json")}>Download</Button>
+                        </div>
+                    </>}
+
+                    {showItem === "mkdocs-css" && <>
+                        <HeadingSection title="Code Generators" heading="Mkdocs-CSS Code" />
+                        <div className="top40">
+                            <h5>Base Code</h5>
+                        </div>
+                        <div className="top40">
+                            <InputLabel>CSS for both Light and Dark Modes</InputLabel>
+                            <pre style={codeStyle}>
+                                {getCssCode()}
+                            </pre>
+                            <Button variant="contained" onClick={() => navigator.clipboard.writeText(getCssCode())}>Copy</Button>
+                            <span style={{paddingLeft: "20px"}}> &nbsp;</span>
+                            <Button variant="outlined" onClick={() => saveFile(getCssCode(), designSystem.name + "-extra.css")}>Download</Button>
+                        </div>
+
+                        <div className="top40">
+                            <InputLabel>Mobile and Tablet CSS</InputLabel>
+                        </div>
+
+                        <div className="top40">
+                            <pre style={codeStyle}>
+                                Code goes here
+                            </pre>
+                            <Button variant="contained" onClick={() => navigator.clipboard.writeText("Code goes here")}>Copy</Button>
+                            <span style={{paddingLeft: "20px"}}> &nbsp;</span>
+                            <Button variant="outlined" onClick={() => saveFile("Code goes here", designSystem.name + "-mobile.css")}>Download</Button>
+                        </div>
+
+                        <div className="top40">
+                            <h5>Accessibility CSS</h5>
+                        </div>
+
+                        <div className="top40">
+                            <InputLabel>Motion Sensitive</InputLabel>
+                            <pre style={codeStyle}>
+                                Code goes here
+                            </pre>
+                            <Button variant="contained" onClick={() => navigator.clipboard.writeText("Code goes here")}>Copy</Button>
+                            <span style={{paddingLeft: "20px"}}> &nbsp;</span>
+                            <Button variant="outlined" onClick={() => saveFile("Code goes here", designSystem.name + "-extra_css.css")}>Download</Button>
+                        </div>
+
+                        <div className="top40">
+                            <InputLabel>Dyslexic</InputLabel>
+                            <pre style={codeStyle}>
+                                Code goes here
+                            </pre>
+                            <Button variant="contained" onClick={() => navigator.clipboard.writeText("Code goes here")}>Copy</Button>
+                            <span style={{paddingLeft: "20px"}}> &nbsp;</span>
+                            <Button variant="outlined" onClick={() => saveFile("Code goes here", designSystem.name + "-dyslexic.css")}>Download</Button>
                         </div>
                     </>}
                 </div>

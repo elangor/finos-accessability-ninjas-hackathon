@@ -73,7 +73,7 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
 
     const getMKDOCSCssCode = () => {
         const r = [":root {"];
-        const vars = designSystem.code.mkdocsCSSGenerator.getVars();
+        const vars = designSystem.code.getMKDOCSCSSVars();
         Object.keys(vars).forEach(name => {
             r.push(`  ${name}: ${vars[name]};`)
         })
@@ -245,11 +245,11 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
                         <div className="top40">
                             <InputLabel>CSS for both Light and Dark Modes</InputLabel>
                             <pre style={codeStyle}>
-                                {getCssCode()}
+                                {getMKDOCSCssCode()}
                             </pre>
                             <Button variant="contained" onClick={() => navigator.clipboard.writeText(getMKDOCSCssCode())}>Copy</Button>
                             <span style={{paddingLeft: "20px"}}> &nbsp;</span>
-                            <Button variant="outlined" onClick={() => saveFile(getCssCode(), designSystem.name + "-extra.css")}>Download</Button>
+                            <Button variant="outlined" onClick={() => saveFile(getMKDOCSCssCode(), designSystem.name + "-extra.css")}>Download</Button>
                         </div>
 
                         <div className="top40">

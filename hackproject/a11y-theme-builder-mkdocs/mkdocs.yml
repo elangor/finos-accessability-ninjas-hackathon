@@ -13,6 +13,7 @@ repo_url: https://github.com/discoverfinancial/a11y-theme-builder
 # Content Generator Settings
 docs_dir: 'docs'
 site_dir: 'html'
+extra_css: [styling/extra.css]
 
 # Copyright information
 copyright: >-

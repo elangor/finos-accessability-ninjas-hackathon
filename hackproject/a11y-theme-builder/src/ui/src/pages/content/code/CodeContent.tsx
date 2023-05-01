@@ -72,7 +72,7 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
     }
 
     const getMKDOCSCssCode = () => {
-        const r = [":root {"];
+        const r = ["[data-md-color-scheme=\"default\"] {"];
         const vars = designSystem.code.getMKDOCSCSSVars();
         Object.keys(vars).forEach(name => {
             r.push(`  ${name}: ${vars[name]};`)

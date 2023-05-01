@@ -64,7 +64,7 @@ export class MKDOCSCSSGenerator {
         const vk = new MKDOCSCSSVariableKind("static","",[], this);
         vk.setVars({
            "md-accent-fg-color": "rgb(144, 180, 254)",
-           "md-primary-fg-color": "rgba(255,255,255,0.6)"
+           "md-primary-fg-color": "rgb(100, 149, 80)"
         });
     }
 

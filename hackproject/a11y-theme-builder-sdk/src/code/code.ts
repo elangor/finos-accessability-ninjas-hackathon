@@ -6,6 +6,7 @@ import { Node } from "../common/node";
 import { CSSGenerator, CSSVarGroup } from "./cssGenerator";
 import { JSONGenerator } from "./jsonGenerator";
 import { IDesignSystem, VarListener, INode } from "../interfaces";
+import { MKDOCSCSSGenerator, MKDOCSCSSVarGroup} from "./mkdocs-cssGenerator";
 
 /**
  * Code generation for theme builder.
@@ -17,10 +18,13 @@ export class Code extends Node {
     public cssGenerator: CSSGenerator;
     public jsonGenerator: JSONGenerator;
 
+    public mkdocsCSSGenerator: MKDOCSCSSGenerator;
+
     constructor(ds: IDesignSystem) {
         super("code", ds);
         this.cssGenerator = new CSSGenerator(ds);
         this.jsonGenerator = new JSONGenerator(ds);
+        this.mkdocsCSSGenerator = new MKDOCSCSSGenerator(ds);
         this.addDependency(ds.atoms);
     }
 
@@ -69,6 +73,36 @@ export class Code extends Node {
      */
     public getJSON(lm: boolean): Object {
         return this.jsonGenerator.getJSON(lm);
+    }
+
+    public getMKDOCSCSSVars(): {[name: string]: string} {
+        return this.mkdocsCSSGenerator.getVars();
+    }
+
+    /**
+     * Set a CSS variable listener which is called each time a CSS variable value is changed.
+     * @param name The listener name.
+     * @param listener The listener callback.
+     */
+    public setMKDOCSCSSVarListener(name: string, listener?: VarListener) {
+        this.mkdocsCSSGenerator.setCSSVarListener(name, listener);
+    }
+
+    /**
+     * Get a group of CSS variables associated with a particular node (i.e. atom, molecule, or organism).
+     * @param node The node for which we are getting the group of variables.
+     * @returns The variable group
+     */
+    public getMKDOCSCSSVarGroup(node: INode): MKDOCSCSSVarGroup {
+        return this.mkdocsCSSGenerator.getVarGroup(node.key);
+    }
+
+    /**
+     * Get all keys of all CSS variable groups.
+     * @returns All keys associated with all CSS variable groups.
+     */
+    public getMKDOCSCSSVarGroupKeys(): string[] {
+        return this.mkdocsCSSGenerator.getVarGroupKeys();
     }
 
 }

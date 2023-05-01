@@ -71,6 +71,16 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
         return r.join("\n");
     }
 
+    const getMKDOCSCssCode = () => {
+        const r = [":root {"];
+        const vars = designSystem.code.mkdocsCSSGenerator.getVars();
+        Object.keys(vars).forEach(name => {
+            r.push(`  ${name}: ${vars[name]};`)
+        })
+        r.push("}")
+        return r.join("\n");
+    }
+
     const getJsonCode = (lm: boolean) => {
         const code = designSystem.code.getJSON(lm);
         return JSON.stringify(code,null,2);
@@ -237,7 +247,7 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
                             <pre style={codeStyle}>
                                 {getCssCode()}
                             </pre>
-                            <Button variant="contained" onClick={() => navigator.clipboard.writeText(getCssCode())}>Copy</Button>
+                            <Button variant="contained" onClick={() => navigator.clipboard.writeText(getMKDOCSCssCode())}>Copy</Button>
                             <span style={{paddingLeft: "20px"}}> &nbsp;</span>
                             <Button variant="outlined" onClick={() => saveFile(getCssCode(), designSystem.name + "-extra.css")}>Download</Button>
                         </div>

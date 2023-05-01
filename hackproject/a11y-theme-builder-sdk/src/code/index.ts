@@ -4,3 +4,4 @@
  */
 export * from "./code";
 export * from "./cssGenerator";
+export * from "./mkdocs-cssGenerator";

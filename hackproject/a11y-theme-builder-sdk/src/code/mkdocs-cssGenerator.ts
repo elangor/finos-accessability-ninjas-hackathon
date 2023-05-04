@@ -63,8 +63,15 @@ export class MKDOCSCSSGenerator {
     private setStaticVars() {
         const vk = new MKDOCSCSSVariableKind("static","",[], this);
         vk.setVars({
-           "md-accent-fg-color": "rgb(144, 180, 254)",
-           "md-primary-fg-color": "rgb(100, 149, 80)"
+            "md-primary-fg-color": "#4051b5",
+            "md-primary-fg-color--light": "#5d6cc0",
+            "md-primary-fg-color--dark": "#303fa1",
+            "md-primary-bg-color": "#fff",
+            "md-primary-bg-color--light": "#ffffffb3",
+            "md-accent-fg-color": "#526cfe",
+            "md-accent-fg-color--transparent": "#526cfe1a",
+            "md-accent-bg-color": "#fff",
+            "md-accent-bg-color--light": "#ffffffb3"
         });
     }
 

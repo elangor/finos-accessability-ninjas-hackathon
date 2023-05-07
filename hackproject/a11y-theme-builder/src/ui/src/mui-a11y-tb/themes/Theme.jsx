@@ -4,8 +4,14 @@
  */
 import { createTheme,  darken, lighten } from "@mui/material/styles";
 import { formLabelClasses } from "@mui/material";
-import './Theme.css'
-import './TB.css'
+import './Theme.css';
+import './TB.css';
+/* eslint import/no-webpack-loader-syntax: off */
+import mkDocStyleAsString from '!!raw-loader!./MkdocsTheme.css';
+
+export const getMkDocsCssAsString = () => {
+    return mkDocStyleAsString;
+}
 
 export const getCssValue = (prop) => {
     //console.log(`ENTER - getCssValue(${prop})`);

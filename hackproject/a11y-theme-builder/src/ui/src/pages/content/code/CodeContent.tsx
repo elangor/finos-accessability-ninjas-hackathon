@@ -9,6 +9,7 @@ import { LeftNavHeader, LeftNavItem } from '../../../components/LeftNavTabs';
 import { DesignSystem, Event, EventType } from 'a11y-theme-builder-sdk';
 import { HeadingSection } from '../HeadingSection';
 import FileSaver from 'file-saver';
+import {getMkDocsCssAsString} from '../../../mui-a11y-tb/themes/Theme';
 
 interface Props {
     user: any;
@@ -72,13 +73,22 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
     }
 
     const getMKDOCSCssCode = () => {
-        const r = ["[data-md-color-scheme=\"default\"] {"];
-        const vars = designSystem.code.getMKDOCSCSSVars();
+        //const r = ["[data-md-color-scheme=\"default\"] {"];
+        let finalOutput = '';
+        const r = [":root {"];
+        //const vars = designSystem.code.getMKDOCSCSSVars();
+        const vars = designSystem.code.getCSSVars();
         Object.keys(vars).forEach(name => {
             r.push(`  ${name}: ${vars[name]};`)
         })
         r.push("}")
-        return r.join("\n");
+        finalOutput = r.join("\n");
+        const contentOfMkDocs = getMkDocsCssAsString();
+        finalOutput = finalOutput + "\n" + contentOfMkDocs;
+        return finalOutput;
+        // Read from MkdocsTheme.css
+
+        //return r.join("\n");
     }
 
     const getJsonCode = (lm: boolean) => {

@@ -33,6 +33,9 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: cd hackproject/a11y-theme-builder-mkdocs
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+      - run: |
+          cd ./hackproject/a11y-theme-builder-mkdocs
+          pip install mkdocs-material 
+          pwd
+          ls -l
+          mkdocs gh-deploy --force

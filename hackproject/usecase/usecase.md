@@ -10,8 +10,7 @@
     - [Vernacular](#vernacular)
     - [Assumptions](#assumptions)
     - [Persona](#persona)
-    - [Story](#story)
-        - [Main Flow](#todo)    
+    - [Demo Workflow](#todo)    
     - [Benefits](#benefits)
     - [Related Topics](#related-topics)
 
@@ -70,6 +69,8 @@ The goal is to demonstrate the end-to-end activities necessary to:
 | <img src="./images/Mkdocs_tool.png" width="40" height="40">  <br>Documentation Tool  | Platforms | Platform/Tools used by content creators to create new documents.| helps contenet creators to create documemnts and reach out to all clss of peoples.|
 | <img src="./images/Theme_Builder.png" width="40" height="40">  <br>Theme Builder Tool  | Platforms | Platform/Tools used by content creators to create new themes.| helps contenet creators to create new themes and css configurations for documents.|
 
+## Demo Workflow
+![Demo Workflow](../../hackproject/usecase/images/Usecase_sequence_diagrams.png")
 
 
 ## Benefits

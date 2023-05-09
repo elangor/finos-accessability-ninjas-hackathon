@@ -1,7 +1,7 @@
 <!---  Submission Readme Instructions  
   Remove the warning below.
 --->
-![warning](./challenges/challenge1/usecase/images/misc/warning.png) Before submitting your project repo, modify this README as instructed to meet the expectations of the judges.
+
 
 
 <!---  Submission Readme Instructions  
@@ -17,9 +17,7 @@
 --->
  
 # Project Name
-<!--- Template Instructions  
-  Each Participating Team will have a unique name. Each Team will create a unique name for their project. Replace above "Project Name" with Participating Team Project Name which is different from the Team Name.
---->
+Theme Builder extension for content writers(mkdocs/docsaurus)
 
 ## Project Details
 <!--- Template Instructions  
@@ -32,10 +30,10 @@
 
 | Event Attribute| Description |
 | --- | --- |
-| Project Team Name | xxxxxxxx |
-| Project Name | xxxxxxxx |
-| Challenge | xxxxxxxx |
-| Event Track | xxxxxxxx |
+| Project Team Name | Team-Ninjas |
+| Project Name | Theme Builder extension for content writers(mkdocs/docsaurus) |
+| Challenge | 2 |
+| Event Track | Hack the Code |
 
 ## Use Case Abstract
 <!--- Template Instructions  
@@ -59,10 +57,10 @@
 
 | Deliverable | Purpose |
 | --- | --- |
-| [Use Case Story](./hackproject/usecase.md) | Supporting material for judges. | 
-| [Visual Collaboration Board URL]() | Supporting development material for team. | 
+| [Use Case Story](./hackproject/usecase/usecase.md) | Supporting material for judges. | 
+| [Visual Collaboration Board URL](https://app.mural.co/t/elango8847/m/elango8847/1682395173333/a70cfa95975b18277cdafad61dded2eb454dcdec?invited=true&sender=ucb99b0252d91904961698868) | Supporting development material for team. | 
 | [Visual Collaboration Board Artifacts](./hackproject/media/board) | Supporting development material for team. | 
-| [Design Thinking Playback Brief](./presentations/playback-brief.ppt)| Supporting development material for team. | 
+| [Design Thinking Playback Brief](./challenges/common/presentations/gaad-hackathon-playback-template.pptx)| Supporting development material for team. | 
 | [Concept Playback - Pitch Video](./media/videos/pitch-video.mp4)|  Required for judging. | 
 | [Concept Show-n-Tell Video](./media/videos/demo-video.mp4) | Optional or Required for judging depending on track. | 
 | [Solution Code](./hackproject/README.md) | | Supporting material for judging depending on track.   | 
@@ -84,5 +82,7 @@ Our team members came together because ...
  
 | Name | Organization |
 | --- | --- |
-| [Name](social-url) | ??? |
-| [Name](social-url) | ??? |
+| Raja H Henry | Discover Financial Services |
+| Elango Ramasamy | Grainger |
+| Tarun Luthra | Discover Financial Services |
+| Vikas Patil | Discover Financial Services |

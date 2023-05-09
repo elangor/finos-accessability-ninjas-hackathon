@@ -1,5 +1,4 @@
-# Theme builder extensions for Content writters (mkdocs/docsaurus)
-
+# Theme builder extensions for MarkDowns (mkdocs/docsaurus)
 
 
   - [Table of Contents](#table-of-contents)
@@ -33,7 +32,7 @@ This eliminates manually generating those themes , Make all segments of people c
 
 
 ### Approach
-Project-(Theme builder extensions for Content writters (mkdocs/docsaurus)) - content creators with disabilities can use themes generated using theme builders and apply those themes in documentation platforms like Mkdocs/Docusarus and create more accessible documents.
+Project-(Theme builder extensions for MarkDowns (mkdocs/docsaurus)) - content creators with disabilities can use themes generated using theme builders and apply those themes in documentation platforms like Mkdocs/Docusarus and create more accessible documents.
 
 
 The goal is to demonstrate the end-to-end activities necessary to:
@@ -55,7 +54,7 @@ The goal is to demonstrate the end-to-end activities necessary to:
 
 ## Assumptions
 
-1. Use case assumes knowledge of the W3C accessible Standards 
+1. Use case assumes knowledge of the W3C compliant accessible Standards 
 2. Modified accessible contents are readily available for class of peoples.
 
 

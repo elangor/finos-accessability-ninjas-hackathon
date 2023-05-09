@@ -1,7 +1,7 @@
 
  
 # Project Name
-## Theme Builder extension for content writers(mkdocs/docsaurus)
+## Theme Builder extension for Markdowns (mkdocs/docsaurus)
 
 ## Project Details
 <!--- Template Instructions  
@@ -15,7 +15,7 @@
 | Event Attribute| Description |
 | --- | --- |
 | Project Team Name | Team-Ninjas |
-| Project Name | Theme Builder extension for content writers(mkdocs/docsaurus) |
+| Project Name | Theme Builder extension for MarkDowns(mkdocs/docsaurus) |
 | Challenge | 2 |
 | Event Track | Hack the Code |
 

@@ -116,7 +116,7 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
                         <LeftNavHeader>Code Generators</LeftNavHeader>
                         <LeftNavItem text={"CSS"} value="css" indent={1} selected={showItem} onClick={()=> {setShowItem("css")}} disabled={disabled}/>
                         <LeftNavItem text={"JSON"} value="json" indent={1} selected={showItem} onClick={()=> {setShowItem("json")}} disabled={disabled}/>
-                        <LeftNavItem text={"Mkdocs-CSS"} value="css" indent={1} selected={showItem} onClick={()=> {setShowItem("mkdocs-css")}} disabled={disabled}/>
+                        <LeftNavItem text={"MD-CSS"} value="css" indent={1} selected={showItem} onClick={()=> {setShowItem("md-css")}} disabled={disabled}/>
                 </List>
                 </div>
             </div>
@@ -247,8 +247,8 @@ export const CodeContent: React.FC<Props> = ({ user, designSystem }) => {
                         </div>
                     </>}
 
-                    {showItem === "mkdocs-css" && <>
-                        <HeadingSection title="Code Generators" heading="Mkdocs-CSS Code" />
+                    {showItem === "md-css" && <>
+                        <HeadingSection title="Code Generators" heading="MD-CSS Code" />
                         <div className="top40">
                             <h5>Base Code</h5>
                         </div>

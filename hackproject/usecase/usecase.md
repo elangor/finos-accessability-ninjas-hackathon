@@ -1,7 +1,7 @@
 # Theme builder extensions for Content writters (mkdocs/docsaurus)
 
-#### Table of Contents
-- [ Theme builder extensions for Content writters (mkdocs/docsaurus) ](#Content Generator  )
+
+
   - [Table of Contents](#table-of-contents)
     - [Acknowledgements](#acknowledgements)
     - [Business Challenge](#business-challenge)

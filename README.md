@@ -29,13 +29,13 @@
 
 | Deliverable | Purpose |
 | --- | --- |
-| [Use Case Story](./hackproject/usecase/usecase.md) | Supporting material for judges. | 
-| [Visual Collaboration Board URL](https://app.mural.co/t/elango8847/m/elango8847/1682395173333/a70cfa95975b18277cdafad61dded2eb454dcdec?invited=true&sender=ucb99b0252d91904961698868) | Supporting development material for team. | 
-| [Visual Collaboration Board Artifacts](./hackproject/media/board) | Supporting development material for team. | 
-| [Design Thinking Playback Brief](./challenges/common/presentations/gaad-hackathon-playback-template.pptx)| Supporting development material for team. | 
-| [Concept Playback - Pitch Video](./media/videos/pitch-video.mp4)|  Required for judging. | 
-| [Concept Show-n-Tell Video](./media/videos/demo-video.mp4) | Optional or Required for judging depending on track. | 
-| [Solution Code](./hackproject/README.md)  | Supporting material for judging depending on track.   | 
+| [Use Case Story](./hackproject/usecase/usecase.md) | Usecase Document | 
+| [Visual Collaboration Board URL](https://app.mural.co/t/elango8847/m/elango8847/1682395173333/a70cfa95975b18277cdafad61dded2eb454dcdec?invited=true&sender=ucb99b0252d91904961698868) | Visual Collobration board. | 
+| [Visual Collaboration Board Artifacts](./hackproject/media/board) | whiteboard used for team brainstorming | 
+| [Design Thinking Playback Brief](./challenges/common/presentations/gaad-hackathon-playback-template.pptx)| PowerPoint Presentation used to convey results of Design Thinking activities. | 
+| [Concept Playback - Pitch Video](./media/videos/pitch-video.mp4)|  Pitch Video recording conveying project problem statement. | 
+| [Concept Show-n-Tell Video](./media/videos/demo-video.mp4) | Recording of a running solution to the proposed concept. | 
+| [Solution Code](./hackproject/README.md)  | Solution Readme   | 
 
 
 

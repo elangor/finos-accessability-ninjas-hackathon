@@ -26,6 +26,7 @@
 ## Project Artifacts
 
 
+
 | Deliverable | Purpose |
 | --- | --- |
 | [Use Case Story](./hackproject/usecase/usecase.md) | Supporting material for judges. | 
@@ -41,7 +42,7 @@
 ## Team Information
 
 
-Our team members came together because ...
+Our team members came together because Strength lies in differences, not in similarities.We will all profit from a more diverse, inclusive society, understanding, accommodating, even celebrating our differences, while pulling together for the common good.
  
 | Name | Organization |
 | --- | --- |

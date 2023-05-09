@@ -12,7 +12,7 @@
     - [Persona](#persona)
     - [Demo Workflow](#todo)    
     - [Benefits](#benefits)
-    - [Related Topics](#related-topics)
+  
 
 
 ## Acknowledgements
@@ -70,7 +70,7 @@ The goal is to demonstrate the end-to-end activities necessary to:
 | <img src="./images/Theme_Builder.png" width="40" height="40">  <br>Theme Builder Tool  | Platforms | Platform/Tools used by content creators to create new themes.| helps contenet creators to create new themes and css configurations for documents.|
 
 ## Demo Workflow
-![Demo Workflow](../../hackproject/usecase/images/Usecase_sequence_diagrams.png")
+![Demo Workflow](./images/Usecase_sequence_diagrams.png)
 
 
 ## Benefits

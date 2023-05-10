@@ -65,8 +65,8 @@ The goal is to demonstrate the end-to-end activities necessary to:
 | <img src="./images/john.png" width="40" height="40"> <br> John Doe           | Content Writter | Create documents                                                  | uses documentation tools/platforms to generate new documents  .                                                          |
 | <img src="./images/mike.png" width="40" height="40"> <br> Mike Doe           | End-user | acess the contents created by content creator and can be impaired worker/person | uses documentation tools/platforms to access new.                                                          |
 | <img src="./images/discover_logo.png" width="40" height="40"> <br>Discover   | financial services | employs disabled content writers. | achieve diversity and inclusion goals. |
-| <img src="./images/Mkdocs_tool.png" width="40" height="40">  <br>Documentation Tool  | Platforms | Platform/Tools used by content creators to create new documents.| helps contenet creators to create documemnts and reach out to all clss of peoples.|
-| <img src="./images/Theme_Builder.png" width="40" height="40">  <br>Theme Builder Tool  | Platforms | Platform/Tools used by content creators to create new themes.| helps contenet creators to create new themes and css configurations for documents.|
+| <img src="./images/Mkdocs_tool.png" width="40" height="40">  <br>Documentation Tool  | Platforms | Platform/Tools used by content creators to create new documents.| helps content creators to create documemnts and reach out to all clss of peoples.|
+| <img src="./images/Theme_Builder.png" width="40" height="40">  <br>Theme Builder Tool  | Platforms | Platform/Tools used by content creators to create new themes.| helps content creators to create new themes and css configurations for documents.|
 
 ## Demo Workflow
 ![Demo Workflow](./images/Usecase_sequence_diagrams.png)
@@ -74,5 +74,6 @@ The goal is to demonstrate the end-to-end activities necessary to:
 
 ## Benefits
 1. Generated themes can be applied across many documentation platforms and tools.
-2. Make all segments of people content creators 
-3. helps to achieve DEI (diversity, equity and inclusion), ) goals.
+2. helps to achieve documents accessiblity compliance .
+3. Make all segments of people content creators 
+3. helps to achieve DEI (diversity, equity and inclusion)  goals.

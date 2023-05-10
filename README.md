@@ -46,7 +46,7 @@ Our team members came together because Strength lies in differences, not in simi
  
 | Name | Organization |
 | --- | --- |
-| Raja D Henry | Discover Financial Services |
+| Raja Durai Henry | Discover Financial Services |
 | Elango Ramasamy | Grainger |
 | Tarun Luthra | Discover Financial Services |
 | Vikas Patil | Discover Financial Services |

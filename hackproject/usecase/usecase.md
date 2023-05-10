@@ -40,7 +40,7 @@ The goal is to demonstrate the end-to-end activities necessary to:
 * Content creators can create customised themes which are having accessiblity related css changes.
 * Content creators can download those themes and apply across documentation platforms/Tools .
 * Make contents available for all class of people.
-* Discover will acheieve diversity and inclusion goals.
+* Discover will achieve diversity and inclusion goals.
 
 
 ## Vernacular

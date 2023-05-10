@@ -296,11 +296,11 @@
     --primaryFont: Open Sans;
     --secondaryFont: Open Sans;
     --baseFont: 16px;
-    --fontWeight-0: 300;
-    --fontWeight-1: 400;
-    --fontWeight-2: 500;
-    --fontWeight-3: 600;
-    --fontWeight-4: 700;
+    --fontWeight-0: unset;
+    --fontWeight-1: unset;
+    --fontWeight-2: unset;
+    --fontWeight-3: unset;
+    --fontWeight-4: unset;
     --standard-LineHeight: 160%;
     --header-LineHeight: 110%;
     --sm-LineHeight: 110%;
@@ -587,10 +587,10 @@
     --toast-elevation: var(--elevation-0);
     --toast-bevel: var(--bevel-0);
     --toast-boxshadow: var(--toast-elevation), var(--toast-bevel);
-    --image-elevation: var(--elevation-0);
-    --image-radius: 2;
-    --inline-image-height: 7;
-    --inline-image-radius: 1;
+    --image-elevation: var(--elevation-3);
+    --image-radius: 3;
+    --inline-image-height: 8;
+    --inline-image-radius: 2;
     --image-shadow: var(--image-elevation);
     --avatar-border: 2;
     --avatar-border-lg: 2;
@@ -921,14 +921,6 @@
     --dm-button: var(--dm-Orange-400);
     --dm-on-button: #121212;
     --dm-button-half: rgba(193,108,72,0.5);
-    --dropdown-focus-theme: var(--spacing-half);
-    --on-dropdown-focus-bg: rgba(18,18,18,1);
-    --on-dropdown-hover-bg: var(--on-surface);
-    --dropdown-hover-bg: linear-gradient(90deg, var(--button-half) var(--dropdown-focus-theme), var(--transparent) var(--dropdown-focus-theme)) !important;
-    --dm-dropdown-focus-theme: var(--spacing-half);
-    --dm-on-dropdown-focus-bg: rgba(255,255,255,0.6);
-    --dm-on-dropdown-hover-bg: var(--dm-on-surface);
-    --dm-dropdown-hover-bg: linear-gradient(90deg, var(--dm-button-half) var(--dm-dropdown-focus-theme), var(--transparent) var(--dm-dropdown-focus-theme)) !important;
     --iconOnWhite: var(--Orange-600);
     --oniconOnWhite: #FFFFFF;
     --iconHalfOnWhite: var(--Orange-600);
@@ -1023,6 +1015,14 @@
     --dm-on-accent-800: rgba(255,255,255,0.6);
     --dm-accent-900: #4D0000;
     --dm-on-accent-900: rgba(255,255,255,0.6);
+    --dropdown-focus-theme: var(--spacing-half);
+    --on-dropdown-focus-bg: rgba(18,18,18,1);
+    --on-dropdown-hover-bg: var(--on-surface);
+    --dropdown-hover-bg: linear-gradient(90deg, var(--button-half) var(--dropdown-focus-theme), var(--transparent) var(--dropdown-focus-theme)) !important;
+    --dm-dropdown-focus-theme: var(--spacing-half);
+    --dm-on-dropdown-focus-bg: rgba(255,255,255,0.6);
+    --dm-on-dropdown-hover-bg: var(--dm-on-surface);
+    --dm-dropdown-hover-bg: linear-gradient(90deg, var(--dm-button-half) var(--dm-dropdown-focus-theme), var(--transparent) var(--dm-dropdown-focus-theme)) !important;
     --hotlink: #8E2205;
     --hotlink-visited: rgba(142,34,5,0.9);
     --hotlink-decoration: underline;
@@ -1045,6 +1045,15 @@
     --hotlinkOnTertiary-hover-decoration: none;
     --hotlinkOnGradient3: #121212;
     --hotlinkOnGradient3-visited: rgba(0,0,0,0.5);
+    --input: rgba(255,252,251,0.55);
+    --input-disabled: rgba(180,176,175,0.535);
+    --on-input: #121212;
+    --on-input-disabled: #121212;
+    --dm-input: rgba(156,77,45,0.54);
+    --dm-on-input: rgba(255,255,255,0.6);
+    --dm-input-disabled: rgba(13,13,13,0.515);
+    --input-hover: rgba(255,255,255,.9);
+    --dm-input-hover: rgba(255,255,255,.12);
 }
 /* Typography */
 /* Headers */

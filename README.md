@@ -33,8 +33,8 @@
 | [Visual Collaboration Board URL](https://app.mural.co/t/elango8847/m/elango8847/1682395173333/a70cfa95975b18277cdafad61dded2eb454dcdec?invited=true&sender=ucb99b0252d91904961698868) | Visual Collobration board. | 
 | [Visual Collaboration Board Artifacts](./hackproject/media/board) | whiteboard used for team brainstorming | 
 | [Design Thinking Playback Brief](./challenges/common/presentations/gaad-hackathon-playback-template.pptx)| PowerPoint Presentation used to convey results of Design Thinking activities. | 
-| [Concept Playback - Pitch Video](https://youtu.be/S2imfqFzMyo)|  Pitch Video recording conveying project problem statement. | 
-| [Concept Show-n-Tell Video](https://www.youtube.com/watch?v=0Qg0gABcrvI) | Recording of a running solution to the proposed concept. | 
+| [Concept Playback - Pitch Video](https://youtu.be/S2imfqFzMyo)|  Pitch Video recording conveying project problem statement - Also available in [repo](https://github.com/elangor/finos-accessability-ninjas-hackathon/blob/main/hackproject/media/ninjas-markdown-themebuilder-concept.mp4). | 
+| [Concept Show-n-Tell Video](https://www.youtube.com/watch?v=0Qg0gABcrvI) | Recording of a running solution to the proposed concept. Also available in [repo](https://github.com/elangor/finos-accessability-ninjas-hackathon/blob/main/hackproject/media/ninjas-markdown-themebuilder-showntell.mp4) | 
 | [Solution Code](./hackproject/README.md)  | Solution Readme   | 
 
 

@@ -9,6 +9,7 @@
     - [Vernacular](#vernacular)
     - [Assumptions](#assumptions)
     - [Persona](#persona)
+    - [Story](#story)
     - [Demo Workflow](#todo)    
     - [Benefits](#benefits)
   
@@ -65,11 +66,27 @@ To address accessibility issues faced by users of Markdown pages, we have develo
 
 | Actor                                                                                 | Role | Goals                                                                                     | Details                                                                            |
 |---------------------------------------------------------------------------------------| --- |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <img src="./images/john.png" width="40" height="40"> <br> John Doe                    | Content Writter | Create documents                                                                          | Uses documentation tools/platforms to generate new documents  .                    |
-| <img src="./images/mike.png" width="40" height="40"> <br> Mike Doe                    | End-user | Access the contents created by content creator and can be person with accessibility needs | Uses documentation tools/platforms to access new.                                  |
+| <img src="./images/mike.png" width="40" height="40"> <br> Mike Doe                    | Content Writter | Create documents                                                                          | Uses documentation tools/platforms to generate new documents  .                    |
+| <img src="./images/john.png" width="40" height="40"> <br> John Doe                    | End-user | Access the contents created by content creator and can be person with accessibility needs | Uses documentation tools/platforms to access new.                                  |
 | <br>Company X                                                                         | financial services | Employs people with  accessibility needs as content writers.                              | Achieve diversity and inclusion goals.                                             |
-| <img src="./images/Mkdocs_tool.png" width="40" height="40">  <br>Documentation Tool   | Platforms | Platform/Tools used by content creators to create new documents.                          | Helps contenet creators to create documemnts and reach out to all clss of peoples. |
-| <img src="./images/Theme_Builder.png" width="40" height="40">  <br>Theme Builder Tool | Platforms | Platform/Tools used by content creators to create new themes.                             | Helps contenet creators to create new themes and css configurations for documents. |
+| <img src="./images/Mkdocs_tool.png" width="40" height="40">  <br>Documentation Tool   | Platforms | Platform/Tools used by content creators to create new documents.                          | Helps content creators to create documemnts and reach out to all class of peoples. |
+| <img src="./images/Theme_Builder.png" width="40" height="40">  <br>Theme Builder Tool | Platforms | Platform/Tools used by content creators to create new themes.                             | Helps content creators to create new themes and css configurations for documents. |
+
+## Story
+
+
+
+1. <img src="./images/mike.png" width="40" height="40"> Mike uses  <img src="./images/Theme_Builder.png" width="40" height="40">Theme Building Tool.
+2. <img src="./images/mike.png" width="40" height="40"> Mike onboard a new design system within the Theme Building Tool.
+3. <img src="./images/mike.png" width="40" height="40"> Mike adds atoms,molecules,colors,accessible layers configurations in design system
+4. <img src="./images/mike.png" width="40" height="40"> Mike generates those design themes in css format
+5. <img src="./images/mike.png" width="40" height="40"> Mike downloads those design themes.
+
+6. <img src="./images/mike.png" width="40" height="40"> Mike applies downloaded themes to markdown documents created using <img src="./images/Mkdocs_tool.png" width="40" height="40">
+7. <img src="./images/mike.png" width="40" height="40"> Mike will verify document for accessiblity compliance.
+8. <img src="./images/mike.png" width="40" height="40"> Mike publishes <img src="./images/Mkdocs_tool.png" width="40" height="40"> documents ,  <img src="./images/john.png" width="40" height="40"> John access the published documents.
+
+![story](./images/flow_diagram.png)
 
 ## Demo Workflow
 ![Demo Workflow](./images/Usecase_sequence_diagrams.png)

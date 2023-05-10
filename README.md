@@ -16,7 +16,7 @@
 | --- | --- |
 | Project Team Name | Team-Ninjas |
 | Project Name | Theme Builder extension for MarkDowns(mkdocs/docsaurus) |
-| Challenge | 2 |
+| Challenge | 1 |
 | Event Track | Hack the Code |
 
 ## Use Case Abstract

@@ -45,7 +45,7 @@ To address accessibility issues faced by users of Markdown pages, we have develo
 
 1. Content creators can create customised themes which are having accessibility related css changes.
 2. Content creators can download those themes and apply across documentation platforms/Tools .
-3. Make contents available for all class of people.
+3. Make contents available for all sections of society meeting accessibility standards.
 
 ## Vernacular
 
